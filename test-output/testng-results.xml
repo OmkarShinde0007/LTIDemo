@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-13T17:02:25 IST" name="Default suite" finished-at="2023-02-13T17:03:04 IST" duration-ms="39094">
+    <groups>
+    </groups>
+    <test started-at="2023-02-13T17:02:25 IST" name="Default test" finished-at="2023-02-13T17:03:04 IST" duration-ms="39094">
+      <class name="testng.DataProviderDemo">
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProviderDemo@692f203f]" started-at="2023-02-13T17:02:25 IST" name="validateLogin" data-provider="GetUserData" finished-at="2023-02-13T17:02:42 IST" duration-ms="16798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProviderDemo@692f203f]" started-at="2023-02-13T17:02:42 IST" name="validateLogin" data-provider="GetUserData" finished-at="2023-02-13T17:02:53 IST" duration-ms="11069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProviderDemo@692f203f]" started-at="2023-02-13T17:02:53 IST" name="validateLogin" data-provider="GetUserData" finished-at="2023-02-13T17:03:04 IST" duration-ms="11038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[finance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[finance123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- testng.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

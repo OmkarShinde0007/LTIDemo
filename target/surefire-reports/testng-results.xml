@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="23" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-18T14:00:28 IST" name="LTI Project Testing" finished-at="2023-02-18T14:00:28 IST" duration-ms="388">
+    <groups>
+      <group name="smoke, reports">
+        <method signature="GroupsDemo.reports1()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="reports1" class="testng.GroupsDemo"/>
+      </group> <!-- smoke, reports -->
+      <group name="regression">
+        <method signature="GroupsDemo.homepage()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="homepage" class="testng.GroupsDemo"/>
+        <method signature="GroupsDemo.reports()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="reports" class="testng.GroupsDemo"/>
+        <method signature="GroupsDemo.reports2()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="reports2" class="testng.GroupsDemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupsDemo.ValidateForgotPassword()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="ValidateForgotPassword" class="testng.GroupsDemo"/>
+        <method signature="GroupsDemo.ValidateLogin()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="ValidateLogin" class="testng.GroupsDemo"/>
+      </group> <!-- smoke -->
+      <group name="smoke, dashboard">
+        <method signature="GroupsDemo.dashboard()[pri:0, instance:testng.GroupsDemo@79e2c065]" name="dashboard" class="testng.GroupsDemo"/>
+      </group> <!-- smoke, dashboard -->
+    </groups>
+    <test started-at="2023-02-18T14:00:28 IST" name="web" finished-at="2023-02-18T14:00:28 IST" duration-ms="219">
+      <class name="testng.GroupsDemo">
+        <test-method signature="ValidateForgotPassword()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="ValidateForgotPassword" finished-at="2023-02-18T14:00:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateForgotPassword -->
+        <test-method signature="ValidateLogin()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="ValidateLogin" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method signature="dashboard()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="dashboard" finished-at="2023-02-18T14:00:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method signature="homepage()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="homepage" finished-at="2023-02-18T14:00:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="m2()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="m2" finished-at="2023-02-18T14:00:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="reports()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="reports" finished-at="2023-02-18T14:00:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+        <test-method signature="reports1()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="reports1" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports1 -->
+        <test-method signature="reports2()[pri:0, instance:testng.GroupsDemo@79e2c065]" started-at="2023-02-18T14:00:28 IST" name="reports2" finished-at="2023-02-18T14:00:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports2 -->
+      </class> <!-- testng.GroupsDemo -->
+      <class name="testng.DependsOnDemo">
+        <test-method signature="login()[pri:0, instance:testng.DependsOnDemo@18078bef]" started-at="2023-02-18T14:00:28 IST" name="login" finished-at="2023-02-18T14:00:28 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sendFriendRequest()[pri:0, instance:testng.DependsOnDemo@18078bef]" started-at="2023-02-18T14:00:28 IST" name="sendFriendRequest" finished-at="2023-02-18T14:00:28 IST" depends-on-methods="testng.DependsOnDemo.login" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendFriendRequest -->
+        <test-method signature="acceptFriendRequest()[pri:0, instance:testng.DependsOnDemo@18078bef]" started-at="2023-02-18T14:00:28 IST" name="acceptFriendRequest" finished-at="2023-02-18T14:00:28 IST" depends-on-methods="testng.DependsOnDemo.sendFriendRequest, testng.DependsOnDemo.login" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptFriendRequest -->
+      </class> <!-- testng.DependsOnDemo -->
+      <class name="testng.Annotations">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="dbConnection" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="browerConfid()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="browerConfid" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browerConfid -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="launchApplication" finished-at="2023-02-18T14:00:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateLoginFeature()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="validateLoginFeature" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFeature -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="closeApplication" finished-at="2023-02-18T14:00:28 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="launchApplication" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateTitle()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="validateTitle" finished-at="2023-02-18T14:00:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="closeApplication" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="closebrowserConfig()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="closebrowserConfig" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowserConfig -->
+        <test-method is-config="true" signature="closedbConnection()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="closedbConnection" finished-at="2023-02-18T14:00:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbConnection -->
+      </class> <!-- testng.Annotations -->
+    </test> <!-- web -->
+    <test started-at="2023-02-18T14:00:28 IST" name="Mobile" finished-at="2023-02-18T14:00:28 IST" duration-ms="99">
+      <class name="testng.InvocationCount">
+        <test-method signature="m1()[pri:0, instance:testng.InvocationCount@408d971b]" started-at="2023-02-18T14:00:28 IST" name="m1" finished-at="2023-02-18T14:00:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m1()[pri:0, instance:testng.InvocationCount@408d971b]" started-at="2023-02-18T14:00:28 IST" name="m1" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m1()[pri:0, instance:testng.InvocationCount@408d971b]" started-at="2023-02-18T14:00:28 IST" name="m1" finished-at="2023-02-18T14:00:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- testng.InvocationCount -->
+      <class name="testng.PriorityDemo">
+        <test-method signature="chickoo()[pri:-1, instance:testng.PriorityDemo@557caf28]" started-at="2023-02-18T14:00:28 IST" name="chickoo" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chickoo -->
+        <test-method signature="grapes()[pri:0, instance:testng.PriorityDemo@557caf28]" started-at="2023-02-18T14:00:28 IST" name="grapes" finished-at="2023-02-18T14:00:28 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grapes -->
+        <test-method signature="orange()[pri:1, instance:testng.PriorityDemo@557caf28]" started-at="2023-02-18T14:00:28 IST" name="orange" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+        <test-method signature="banana()[pri:2, instance:testng.PriorityDemo@557caf28]" started-at="2023-02-18T14:00:28 IST" name="banana" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- banana -->
+        <test-method signature="mango()[pri:2, instance:testng.PriorityDemo@557caf28]" started-at="2023-02-18T14:00:28 IST" name="mango" finished-at="2023-02-18T14:00:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method signature="apple()[pri:3, instance:testng.PriorityDemo@557caf28]" started-at="2023-02-18T14:00:28 IST" name="apple" finished-at="2023-02-18T14:00:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+      </class> <!-- testng.PriorityDemo -->
+      <class name="testng.Annotations">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="initialization" finished-at="2023-02-18T14:00:28 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testng.Annotations@55b699ef]" started-at="2023-02-18T14:00:28 IST" name="afterSuite" finished-at="2023-02-18T14:00:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng.Annotations -->
+    </test> <!-- Mobile -->
+  </suite> <!-- LTI Project Testing -->
+</testng-results>
